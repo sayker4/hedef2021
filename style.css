@@ -1,0 +1,99 @@
+/* width */
+ ::-webkit-scrollbar {
+     width: 10px;
+}
+/* Track */
+ ::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 2px silver;
+     border-radius: 10px;
+}
+/* Handle */
+ ::-webkit-scrollbar-thumb {
+     background:#ffc107;
+     border-radius: 10px;
+}
+/* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+     background: #ecb100;
+}
+ #dark-mode-container{
+     position: relative;
+     margin:0 10px;
+}
+/*******************************/
+ .dark-mode{
+     width: 70px;
+     transition: 0.1s;
+     position:absolute;
+}
+ .light-mode{
+     width: 70px;
+     transition: 0.1s;
+     opacity: 1;
+}
+ .h3_dark{
+     color:#BB86FC;
+}
+ .h3_light{
+     color:black;
+}
+ .p_light{
+     color:black;
+}
+ .p_dark{
+     color:#D7D7D7;
+}
+ .card_dark {
+     background-color: #1D1D1D;
+}
+ .body_dark{
+     background-color: #121212;
+}
+ .body_light{
+     background-color: white;
+}
+/*******************************/
+ .alt-bosluk {
+     margin-bottom: 10px;
+}
+ .opacity-yarim{
+     opacity: 0.5;
+}
+ .opacity-tam{
+     opacity: 1;
+}
+ .card {
+    /*background-image: linear-gradient(rgb(176, 251, 188), rgb(176, 251, 188)), linear-gradient(#feb2b2, #feb2b2);
+    */
+     background-size: 100% 0, 0 5px;
+     background-position: 100% 100%, 100% 100%;
+     background-repeat: no-repeat;
+     transition: background-size 0.2s linear;
+}
+ .card-click {
+     background-image: linear-gradient(rgb(176, 251, 188), rgb(176, 251, 188)), linear-gradient(#feb2b2, #feb2b2);
+     background-size: 100% 100%, 0 5px;
+     background-position: 100% 100%, 100% 100%;
+     background-repeat: no-repeat;
+     transition: background-size 0.2s linear;
+}
+ .card-img-top{
+     z-index: 1;
+}
+ .tamam{
+     width:80%;
+     position:relative;
+     margin:0 auto;
+}
+ .tamam-img{
+     opacity: 0;
+     z-index: 2;
+     position: absolute;
+     width: 100%;
+     margin:20% auto;
+}
+ .footer {
+     left: 0;
+     bottom: 0;
+     width: 100%;
+}
