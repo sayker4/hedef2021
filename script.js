@@ -98,6 +98,9 @@ function darkMode() {
     if (document.body.className === "body_dark") {
         document.body.className = "body_light __plain_text_READY__";
     }
+    else if (document.body.className === "body_light") {
+        document.body.className = "body_dark";
+    }
     else if (document.body.className === "body_light __plain_text_READY__") {
         document.body.className = "body_dark";
     }
